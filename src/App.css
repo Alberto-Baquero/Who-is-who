@@ -1,0 +1,36 @@
+.persons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.personsImg {
+    width: 15vw;
+}
+.questions {
+    margin: 15% 30% 15% 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+button {
+    margin-bottom: 10%;
+    display: grid;
+    background-color: #4f4f4f;
+    border-radius: 10px;
+    box-shadow: -3px -3px 4px 1px #000;
+    margin-left: 10px;
+    text-shadow: 0px 0px 7px #00fffa;
+}
+.questionTarget {
+    display: grid;
+    padding: 10px;
+    border: 6px solid;
+    border-radius: 50px;
+    justify-items: center;
+}
+.questionTitle {
+    font-family: cursive;
+    color: #4f4f4f;
+    text-shadow: 0px 0px 7px #00fffa;
+}
